@@ -24,4 +24,8 @@ describe('Date Format Validate', function(){
     it('Should be valid when date is 1q-12-2015', function(){
         expect(dateValidator('1q-12-2015')).toBeFalsy();
     });
+
+    it('Should be valid when date is 01/12/2015', function(){
+        expect(dateValidator('01/12/2015')).toBeFalsy();
+    });
 });

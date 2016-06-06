@@ -1,6 +1,6 @@
 $(function () {
 
-    $( "#date" ).datepicker({"dateFormat":"dd-mm-yy" });
+    //$( "#date" ).datepicker({"dateFormat":"dd-mm-yy" });
 
     $('#validate-date').click(validateDate);
 });
