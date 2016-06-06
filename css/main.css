@@ -1,0 +1,13 @@
+.error-message {
+    color: red;
+    height: 20px;
+}
+
+.date-green{
+    border: 1px solid #00A000;
+    border-radius: 2px;
+}
+
+.hidden {
+    display: none;
+}
